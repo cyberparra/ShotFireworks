@@ -37,11 +37,12 @@ function draw() {
     for (let star of stars) 
         star.draw();
     
-    /* Generate new shell with small probability */
+    /* Generate new shell with small probability 
     if (random() < 0.03) {
         let s = new Shell();
         shells.push(s);     
     }
+    */
 }
 
 class Shell {
